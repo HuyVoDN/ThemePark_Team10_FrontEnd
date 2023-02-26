@@ -1,5 +1,5 @@
- # Theme Park Management System
- ## Team 10 Project <br>
+ # **Theme Park Management System**
+ ## **Team 10** Project <br>
  **Class**: COSC 3380, University of Houston. <br>
  **Date**: Spring 2023.<br>
 **Members**: Huy, Ariya, Stanley, Joel, Tamilore. <br>
