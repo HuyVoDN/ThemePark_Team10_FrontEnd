@@ -1,39 +1,44 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href = "stylelogins.css" rel = "stylesheet">
+        <link rel="stylesheet" href="stylelogins.css"/>
         <script src="functionlogin.js"></script>
         <title>ThemePark Login Page</title>
     </head>
     <body>
         <section>
-            <div class = "form-box">
+            <div class = "form-box-login">
                 <div class = "form-value">
                     <form action="">
                         <h1>Theme Park Database</h1>
                            
                         <h2>Log In</h2>
-                        <div class ="input-box">
+                        <div class ="input-box-login">
                             <ion-icon name="mail-outline"></ion-icon>
-                            <input type = "email required" required>
-                            <label for ="">Email</label>
+                            <input type = "text" name="name" id ="name" required>
+                            <label>Username</label>
                         </div>
-                        <div class = "input-box">
+                        <div class = "input-box-login">
                             <ion-icon name="lock-closed-outline"></ion-icon>
-                            <input type = "password" id="password" required>
-                            <label for ="">Password</label>
+                            <input type = "password" name="password" id="password" required>
+                            <label>Password</label>
                         </div>
                         <div class="forget">
-                            <label for=""><input type="checkbox">Remember Me <a href="forgotpass.html"><br>Forgor Password? &#9760;</a></label>
+                            <label for=""><a href="forgotpass.html"><br>Forgor Password? &#9760;</a></label>
                         
                         </div>
                         <div class="button">
-                            <input class="loginbutton" type="button" value="Login" onclick="checkPassword()">
+                            <input class="loginbutton" type="button" value="Login" onclick="checkValidation()">
                         </div>
                         
                         <div class="register">
                             <p>Don't have an account? <a href="registerpage.html">Register</a></p>
                         </div>
+                        <div class ="copyright">
+                            <p>Theme Park Management System @ 2023</p>
+                        </div>
+                        
+                        
                     </form>
                 </div>
             </div>

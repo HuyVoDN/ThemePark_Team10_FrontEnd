@@ -1,0 +1,9 @@
+Theme Park Front End To-Do List
+Create
+    Login page for all Roles, except admin
+    Sign Up Page for all roles
+Add User Roles
+    Manager: login, edit customers profiles, update customer tickets, logout.
+    Admin: login, edit workers profiles, adjust prices, adjust attraction values ( such as names, prices, mantainance dates), view reports, logout.
+Reports Page
+    Accessible only through Admin, probably use a CREATE VIEW function to create view of each attributes from tables.
