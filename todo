@@ -1,9 +1,17 @@
 Theme Park Front End To-Do List
 Create
-    Login page for all Roles, except admin
-    Sign Up Page for all roles
+    Login page for all Roles, except admin[DONE]
+    Registration Page for all roles[DONE]
+    Create main Admin page, using it to add/view managers informations, manage prices, manage mantainances, view reports of sales.
+    Create Manager page, using it to add/view customer tickets/informations, manage workers, manages sales manually, managers can change their passwords, emails manually on page.
 Add User Roles
     Manager: login, edit customers profiles, update customer tickets, logout.
     Admin: login, edit workers profiles, adjust prices, adjust attraction values ( such as names, prices, mantainance dates), view reports, logout.
 Reports Page
     Accessible only through Admin, probably use a CREATE VIEW function to create view of each attributes from tables.
+
+<optional> Forgot Password
+    Though not a necessity, but it would be pretty cool if I could implement this.
+        The way it resets password is that, the user will input its username, then it will hook up with the database from the web app, search for the username.
+        If found, it will automatically delete the current password, and puke out the new random generated password for the user. If not found, returns "username doesn't exist".
+    
