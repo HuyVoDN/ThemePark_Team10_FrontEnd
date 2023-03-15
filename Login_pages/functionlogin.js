@@ -12,7 +12,7 @@ function checkValidation()
         return false;
     }
     else
-    if( manager1 = "JoeBiden69" && password1 == "cutediepie1!")
+    if( manager1 = "JoeBiden69" && password1 == "456")
     {
         alert ("Redirecting to Management Page");
         //window.location = "C:/Users/huybu/OneDrive/Documents/Spring 2023/COSC 3380/DBMS Project/ThemePark_Team10/Login_pages";
