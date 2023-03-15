@@ -12,7 +12,7 @@ month (and which month); spikes in average number of customers on a
 weekly and monthly basis, etc.
 <br>
  
- You guys can use the following for testing access rn <br>
+ You guys can use the following for testing access rn <br><br>
  **Admin Access** <br>
  username: admin<br>
  password: 123 <br><br>
