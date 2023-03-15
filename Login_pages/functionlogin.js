@@ -27,3 +27,7 @@ function checkValidation()
     
     
 }
+function checkRegistration()
+{
+    
+}

@@ -142,7 +142,7 @@ input:valid ~ label
 {
     text-decoration: underline;
 }
-.form-box-login input[type=button]
+.form-box-login .loginbutton
 {
     width: 100%;
     height: 40px;
@@ -228,7 +228,7 @@ label[for=username], label[for=password]
 {
     text-decoration: underline;
 }
-.form-box-register input[type=button]
+.signupbutton
 {
     width: 100%;
     height: 40px;
@@ -274,7 +274,7 @@ label[for=username], label[for=password]
     color: white;
     border-bottom: 2px solid rgb(255, 255, 255);
 }
-.forgot-pass-form input[type=button]
+.forgot-pass-form .resetbutton
 {
     width: 30%;
     height: 40px;
