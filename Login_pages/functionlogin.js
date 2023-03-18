@@ -16,7 +16,7 @@ function checkValidation()
     {
         alert ("Redirecting to Management Page");
         //window.location = "C:/Users/huybu/OneDrive/Documents/Spring 2023/COSC 3380/DBMS Project/ThemePark_Team10/Login_pages";
-        window.location = "managerpage.html";
+        window.location = "ManagerDashboard.html";
         return false;
     }
     else
