@@ -7,15 +7,16 @@
 			font-family: Arial, sans-serif;
 			margin: 0;
 			padding: 0;
+			background-color: #757575;
 		}
 		header {
-			background-color: #1769db;
+			background-color: #9700dd;
 			color: #fff;
 			padding: 30px;
 			text-align: center;
 		}
 		.tab {
-			background-color: #f1f1f1;
+			background-color: #d1d1d1;
 			overflow: hidden;
 			padding: 50px;
 		}
@@ -43,6 +44,10 @@
 	<div class="tab">
 		<button class="tablinks" onclick="openTab(event, 'ride')">Ride Information</button>
 		<button class="tablinks" onclick="openTab(event, 'ticket')">Ticket Pricing</button>
+		<button class="tablinks" onclick="openTab(event, 'customer info')">Customer Information</button>
+		<button class="tablinks" onclick="openTab(event, 'games gifts')">Games and Giftshops</button>
+		<button class="tablinks" onclick="openTab(event, 'restaurants')">Restaurants Sales</button>
+		
 	</div>
 	<div id="ride" class="tabcontent">
 		<h2>Ride Information</h2>
@@ -51,6 +56,23 @@
 	<div id="ticket" class="tabcontent">
 		<h2>Ticket Pricing</h2>
 		<p>Set the Ticket Pricing</p>
+	</div>
+	<div id="customer info" class="tabcontent">
+		<h2>Customer Information</h2>
+		<p>Set the Customer Information</p>
+		<button class="adjustinfo" onclick="">Add New Customer</button>	
+		<button class="adjustinfo" onclick="">View/Adjust a Customer</button> 
+		
+	</div>
+	<div id="games gifts" class="tabcontent">
+		<h2>Games and Giftshops</h2>
+		<p>Set the value of daily input for games and giftshops sales</p>
+		<button class="adjustinfo" onclick="">Adjust sales</button>
+	</div>
+	<div id="restaurants" class="tabcontent">
+		<h2>Restaurants</h2>
+		<p>Set the value of daily input for restaurants sales</p>
+		<button class="adjustinfo" onclick="">Adjust sales</button>
 	</div>
 	<script>
 		function openTab(event, tabName) {
