@@ -1,0 +1,12 @@
+.view
+{
+    color:rgb(255, 255, 255);
+    background-color: black;
+    padding: 6px 6px 6px 6px;
+}
+.view:hover
+{
+    background-color:rgb(195, 255, 0);
+    color:rgb(28, 27, 27);
+    transition: 0.5s;
+}
