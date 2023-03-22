@@ -47,41 +47,48 @@
 		<button class="tablinks" onclick="openTab(event, 'customer info')">Customer Information</button>
 		<button class="tablinks" onclick="openTab(event, 'games gifts')">Games and Giftshops</button>
 		<button class="tablinks" onclick="openTab(event, 'restaurants')">Restaurants Sales</button>
-		<button class="tablinks" onclick="openTab(event, 'Employees')">Employees Management</button>
-		<button class="tablinks" onclick="openTab(event, 'Employees')">Reports</button>
+		<button class="tablinks" onclick="openTab(event, 'employees')">Employees Management</button>
+		<button class="tablinks" onclick="openTab(event, 'reports')">Reports</button>
 		
 		
 	</div>
 	<div id="ride" class="tabcontent">
 		<h2>Ride Information</h2>
 		<p>Information for all the different rides/maintenance date.</p>
+		<button class="view" onclick="">View Rides</button>
 	</div>
 	<div id="ticket" class="tabcontent">
-		<h2>Ticket Pricing</h2>
-		<p>Set the Ticket Pricing</p>
+		<h2>Ticket Information</h2>
+		<p>View Ticket Information</p>
+		<button class="view" onclick="">View Tickets</button>
 	</div>
 	<div id="customer info" class="tabcontent">
 		<h2>Customer Information</h2>
-		<p>Set the Customer Information</p>
-		<button class="adjustinfo" onclick="">Add New Customer</button>	
-		<button class="adjustinfo" onclick="">View/Adjust a Customer</button> 
+		<p>Add, Modify the Customers Information</p>
+		<button class="view" onclick="">View Customers</button>	
+		
 		
 	</div>
 	<div id="games gifts" class="tabcontent">
 		<h2>Games and Giftshops</h2>
-		<p>Set the value of daily input for games and giftshops sales</p>
-		<button class="adjustinfo" onclick="">Adjust sales</button>
+		<p>Adjust sales for games and giftshops</p>
+		<button class="adjustinfo" onclick="">View Sales</button>
 	</div>
 	<div id="restaurants" class="tabcontent">
 		<h2>Restaurants</h2>
 		<p>Set the value of daily input for restaurants sales</p>
-		<button class="adjustinfo" onclick="">Adjust sales</button>
+		<button class="view" onclick="">View Restaurants Sales</button>
 	</div>
-	<div id="Employees" class="tabcontent">
+	<div id="employees" class="tabcontent">
 		<h2>Employees Management</h2>
 		<p>Modify/View of concurrent employees</p>
-		<button class="adjustinfo" onclick="">Add employees</button>
-		<button class="adjustinfo" onclick="">Adjust employees</button>
+		<button class="view" onclick="">View Employees</button>
+		
+	</div>
+	<div id="reports" class="tabcontent">
+		<h2>Reports Managment for Manager</h2>
+		<p>View of reports of manager side</p>
+		<button class="report" onclick="">Generate Report</button>
 	</div>
 	<script>
 		function openTab(event, tabName) {
