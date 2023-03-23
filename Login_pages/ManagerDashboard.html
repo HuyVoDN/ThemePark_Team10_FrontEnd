@@ -4,24 +4,28 @@
 	<link href="styledashboards.css" rel="stylesheet"></link>
 	<title>Manager Dashboard</title>
 	<style>
-		body {
+		body 
+		{
 			font-family: Arial, sans-serif;
 			margin: 0;
 			padding: 0;
 			background-color: #757575;
 		}
-		header {
+		header 
+		{
 			background-color: #9700dd;
 			color: #fff;
 			padding: 30px;
 			text-align: center;
 		}
-		.tab {
+		.tab 
+		{
 			background-color: #d1d1d1;
 			overflow: hidden;
 			padding: 50px;
 		}
-		.tab button {
+		.tab button 
+		{
 			background-color: #ffffff;
 			border: none;
 			color: #000000;
@@ -29,10 +33,19 @@
 			padding: 15px 25px;
 			transition: background-color 0.3s ease;
 		}
-		.tab button.active {
-			background-color: #ddd;
+		.tab button.active 
+		{
+			background-color: #a2a2a2;
+			color:white;
 		}
-		.tabcontent {
+		.tab button:hover
+		{
+			background-color: #a2a2a2;
+			color:white;
+			transition:0.5s;
+		}
+		.tabcontent 
+		{
 			display: none;
 			padding: 30px;
 		}
@@ -56,37 +69,44 @@
 	<div id="ride" class="tabcontent">
 		<h2>Ride Information</h2>
 		<p>Information for all the different rides/maintenance date.</p>
-		<button class="view" onclick="">View Rides</button>
+		<a href="modify/viewrides.html">
+			<button class="view">View Rides</button>
+		</a>	
 	</div>
 	<div id="ticket" class="tabcontent">
 		<h2>Ticket Information</h2>
 		<p>View Ticket Information</p>
-		<button class="view" onclick="">View Tickets</button>
+		<a href="modify/viewtickets.html">
+			<button class="view">View Tickets</button>
+		</a>	
 	</div>
 	<div id="customer info" class="tabcontent">
 		<h2>Customer Information</h2>
 		<p>Add, Modify the Customers Information</p>
-		<a href="modify/viewtickets.html">
+		<a href="modify/viewcustomers.html">
 			<button class="view">View Customers</button>
-		</a>	
-		
-		
+		</a>			
 	</div>
 	<div id="games gifts" class="tabcontent">
 		<h2>Games and Giftshops</h2>
 		<p>Adjust sales for games and giftshops</p>
-		<button class="view" onclick="">View Sales</button>
+		<a href="modify/viewgames.html">
+			<button class="view">View Games & Giftshops</button>
+		</a>	
 	</div>
 	<div id="restaurants" class="tabcontent">
 		<h2>Restaurants</h2>
 		<p>Set the value of daily input for restaurants sales</p>
-		<button class="view" onclick="">View Restaurants Sales</button>
+		<a href="modify/viewrestaurants.html">
+			<button class="view">View Restaurants Sales</button>
+		</a>	
 	</div>
 	<div id="employees" class="tabcontent">
 		<h2>Employees Management</h2>
 		<p>Modify/View of concurrent employees</p>
-		<button class="view" onclick="">View Employees</button>
-		
+		<a href="modify/viewemployees.html">
+			<button class="view">View Employees</button>
+		</a>	
 	</div>
 	<div id="reports" class="tabcontent">
 		<h2>Reports Managment for Manager</h2>
@@ -94,14 +114,17 @@
 		<button class="report" onclick="">Generate Report</button>
 	</div>
 	<script>
-		function openTab(event, tabName) {
+		function openTab(event, tabName) 
+		{
 			var i, tabcontent, tablinks;
 			tabcontent = document.getElementsByClassName("tabcontent");
-			for (i = 0; i < tabcontent.length; i++) {
+			for (i = 0; i < tabcontent.length; i++) 
+			{
 				tabcontent[i].style.display = "none";
 			}
 			tablinks = document.getElementsByClassName("tablinks");
-			for (i = 0; i < tablinks.length; i++) {
+			for (i = 0; i < tablinks.length; i++) 
+			{
 				tablinks[i].className = tablinks[i].className.replace(" active", "");
 			}
 			document.getElementById(tabName).style.display = "block";
