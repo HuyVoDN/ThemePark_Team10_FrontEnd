@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" href="styledashboards.css">
 	<title>Admin Page</title>
 	<style>
-		body {
+		body 
+		{
 			font-family: Arial, sans-serif;
 			margin: 0;
 			padding: 0;
 			background-color: #757575;
 		}
-		header {
+		header 
+		{
 			background-color: #dd0000;
 			color: #fff;
 			padding: 30px;
 			text-align: center;
 		}
-		.tab {
+		.tab 
+		{
 			background-color: #d1d1d1;
 			overflow: hidden;
 			padding: 50px;
 		}
-		.tab button {
+		.tab button 
+		{
 			background-color: #ffffff;
 			border: none;
 			color: #000000;
@@ -28,10 +33,19 @@
 			padding: 15px 25px;
 			transition: background-color 0.3s ease;
 		}
-		.tab button.active {
-			background-color: #ddd;
+		.tab button.active 
+		{
+			background-color: #a2a2a2;
+			color:white;
 		}
-		.tabcontent {
+		.tab button:hover
+		{
+			background-color: #a2a2a2;
+			color:white;
+			transition:0.5s;
+		}
+		.tabcontent 
+		{
 			display: none;
 			padding: 30px;
 		}
@@ -52,29 +66,37 @@
 	<div id="ride" class="tabcontent">
 		<h2>Ride Information</h2>
 		<p>Information for all the different rides/maintenance date.</p>
-        <button class="view" onclick="">View Rides</button>
-        	
+        <a href="modify/viewrides.html">
+			<button class="view">View Rides</button>
+		</a>	     	
 	</div>
 	<div id="ticket" class="tabcontent">
 		<h2>Ticket Pricing</h2>
 		<p>Set the Ticket Pricing, Modify the Ticket Informations</p>
-        <button class="view" onclick="">View Tickets Information</button>
+        <a href="modify/viewtickets.html">
+			<button class="view">View Tickets</button>
+		</a>	
 	</div>
 	<div id="employees" class="tabcontent">
 		<h2>Employees Information</h2>
 		<p>Add, Adjust Employees Information, including Managers</p>
-		<button class="view" onclick="">View Employees</button>	
-				
+		<a href="modify/viewemployees.html">
+			<button class="view">View Employees</button>
+		</a>		
 	</div>
 	<div id="games gifts" class="tabcontent">
 		<h2>Games and Giftshops</h2>
 		<p>Set the value of daily input for games and giftshops sales</p>
-		<button class="view" onclick="">View Sales</button>
+		<a href="modify/viewgames.html">
+			<button class="view">View Games & Giftshops</button>
+		</a>
 	</div>
 	<div id="restaurants" class="tabcontent">
 		<h2>Restaurants Information</h2>
 		<p>Value of daily input for restaurants, as well as modifying the names</p>
-		<button class="view" onclick="">View Restaurants</button>
+		<a href="modify/viewrestaurants.html">
+			<button class="view">View Restaurants Sales</button>
+		</a>	
         
 	</div>
     <div id="reports" class="tabcontent">
