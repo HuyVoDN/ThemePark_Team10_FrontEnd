@@ -5,6 +5,8 @@ Create
     Create main Admin page, using it to add/view managers informations, manage prices, manage mantainances, view reports of sales.
     Create Manager page, using it to add/view customer tickets/informations, manage workers, manages sales manually, managers can change their passwords, emails manually on page.
     [MAJOR] When clicks on the View button, it generates the details of the current tab, then from there you have other buttons to modify the values of the current tab. Let's say that you click on the Tickets Tab, then click on the View Tickets. It will provide you with the current list of tickets, from there, you would have a button allowing you to modify the values of that ticket.
+    [MAJOR] Change the functionality of the login, and sign up pages so it would keep track of passwords for employee logins as well.
+    [MAJOR] Create separate pages for employees, even for low level employee, so they can input their own data, like employeeID for example.
 Add User Roles
     Manager: login, edit customers profiles, update customer tickets, logout.
     Admin: login, edit workers profiles, adjust prices, adjust attraction values ( such as names, prices, mantainance dates), view reports, logout.
