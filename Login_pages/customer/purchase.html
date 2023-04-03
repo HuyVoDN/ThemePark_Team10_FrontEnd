@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Theme Park Ticket Purchase</title>
+</head>
+<body>
+	<h1>Theme Park Ticket Purchase</h1>
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required><br>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required><br>
+
+		<label for="phone">Phone:</label>
+		<input type="tel" id="phone" name="phone" required><br>
+
+		<label for="ticket-type">Ticket Type:</label>
+		<select id="ticket-type" name="ticket-type" required>
+			<option value="regular">Regular Ticket</option>
+			<option value="vip">VIP Ticket</option>
+			<option value="group">Group Ticket (10+ people)</option>
+		</select><br>
+
+		<label for="quantity">Quantity:</label>
+		<input type="number" id="quantity" name="quantity" min="1" max="10" required><br>
+
+		<label for="date">Date:</label>
+		<input type="date" id="date" name="date" required><br>
+
+		<label for="time">Time:</label>
+		<select id="time" name="time" required>
+			<option value="morning">Morning (9am-12pm)</option>
+			<option value="afternoon">Afternoon (12pm-5pm)</option>
+			<option value="evening">Evening (5pm-10pm)</option>
+		</select><br>
+
+		<label for="credit-card">Credit Card Number:</label>
+		<input type="text" id="credit-card" name="credit-card" required><br>
+
+		<label for="expiration-date">Expiration Date:</label>
+		<input type="month" id="expiration-date" name="expiration-date" required><br>
+
+		<input type="submit" value="Purchase Ticket">
+	</form>
+</body>
+</html>

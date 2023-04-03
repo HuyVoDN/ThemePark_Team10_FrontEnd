@@ -4,11 +4,12 @@ function checkValidation()
     var password = document.getElementById("password").value;
     var manager1 = document.getElementById("name").value;
     var password1 = document.getElementById("password").value;
+
     if ( isAdmin == "admin" && password == "123")
     {
         alert ("Redirecting to Admin Page");
         //window.location = "C:/Users/huybu/OneDrive/Documents/Spring 2023/COSC 3380/DBMS Project/ThemePark_Team10/Login_pages";
-        window.location = "adminpage.html";
+        window.location = "AdminDashboard.html";
         return false;
     }
     else
@@ -25,6 +26,30 @@ function checkValidation()
         return false;
     }
     
+    
+}
+function checkCustomerValidation()
+{
+    var customer = document.getElementById("name").value;
+    var password = document.getElementById("password").value;
+
+    if ( customer == "huyvo01" && password == "123")
+    {
+        alert ("Redirecting to Themepark Page");
+        //window.location = "C:/Users/huybu/OneDrive/Documents/Spring 2023/COSC 3380/DBMS Project/ThemePark_Team10/Login_pages";
+        window.location = "customer/purchase.html";
+        return false;
+    }
+    else
+    {
+        alert('Wrong Password!');
+        return false;
+    }
+    
+    
+}
+function checkRegistration()
+{
     
 }
 function checkRegistration()
