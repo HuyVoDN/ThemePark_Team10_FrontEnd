@@ -155,7 +155,10 @@ input:valid ~ label
     font-weight: 600;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+.loginbutton p a:hover
+{
+    
+}
 /*END OF FACULTY LOGIN PAGE*/
 
 /*////////////////////////////////////////////////////////////////////////////////
