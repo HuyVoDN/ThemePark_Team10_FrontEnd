@@ -17,4 +17,7 @@ Reports Page
     Though not a necessity, but it would be pretty cool if I could implement this.
         The way it resets password is that, the user will input its username, then it will hook up with the database from the web app, search for the username.
         If found, it will automatically delete the current password, and puke out the new random generated password for the user. If not found, returns "username doesn't exist".
-    
+<Logins>
+[Manager] JoeBiden69 456
+[Admin] admin 123
+[User] huyvo01 123
