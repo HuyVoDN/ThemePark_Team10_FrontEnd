@@ -48,3 +48,8 @@ td:hover
 {
   background-color: #f5ff6c;
 }
+.modifier button
+{
+  position:relative;
+  align-self: center;
+}
