@@ -3,57 +3,13 @@
 <head>
 	<link href="styledashboards.css" rel="stylesheet"></link>
 	<title>Manager Dashboard</title>
-	<style>
-		body 
-		{
-			font-family: Arial, sans-serif;
-			margin: 0;
-			padding: 0;
-			background-color: #757575;
-		}
-		header 
-		{
-			background-color: #9700dd;
-			color: #fff;
-			padding: 30px;
-			text-align: center;
-		}
-		.tab 
-		{
-			background-color: #d1d1d1;
-			overflow: hidden;
-			padding: 50px;
-		}
-		.tab button 
-		{
-			background-color: #ffffff;
-			border: none;
-			color: #000000;
-			cursor: pointer;
-			padding: 15px 25px;
-			transition: background-color 0.3s ease;
-		}
-		.tab button.active 
-		{
-			background-color: #a2a2a2;
-			color:white;
-		}
-		.tab button:hover
-		{
-			background-color: #a2a2a2;
-			color:white;
-			transition:0.5s;
-		}
-		.tabcontent 
-		{
-			display: none;
-			padding: 30px;
-		}
-	</style>
+	
 </head>
 <body>
 	<header>
 		<h1>Manager Dashboard</h1>
+		<button class="logout" onclick="logOut()">Log Out</button>
+		
 	</header>
 	<div class="tab">
 		<button class="tablinks" onclick="openTab(event, 'ride')">Ride Information</button>
@@ -111,6 +67,7 @@
 		<p>View of reports of manager side</p>
 		<button class="report" onclick="">Generate Report</button>
 	</div>
+	
 	<script>
 		function openTab(event, tabName) 
 		{
@@ -127,6 +84,10 @@
 			}
 			document.getElementById(tabName).style.display = "block";
 			event.currentTarget.className = event.currentTarget.className + " active";
+		}
+		function logOut()
+		{
+			window.location.href="logoutpage.html";
 		}
 	</script>
 </body>
