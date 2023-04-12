@@ -2,16 +2,36 @@
 <html>
 <head>
 	<title>Theme Park Ticket Purchase</title>
+	<style>
+		*
+		{
+			text-align: center;		
+    		font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		}
+		form
+		{		
+			color:blue;			
+			justify-content: center;
+    		align-self: center;
+    		align-items: center;
+    		border: 1px solid rgb(0, 0, 0);
+		}
+	</style>
 </head>
 <body>
 	<h1>Theme Park Ticket Purchase</h1>
-	<form action="process_ticket.php" method="POST">
+	<div class="form-box-login">
+		
+		<form>
+			<div class ="input-box-login">	
 		<label for="first_name">First Name:</label>
 		<input type="text" id="first_name" name="first_name" required><br><br>
+			</div>
 		
-		<label for="last_name">Last Name:</label>
+			<div class ="input-box-login">	
+			<label for="last_name">Last Name:</label>
 		<input type="text" id="last_name" name="last_name" required><br><br>
-		
+				</div>	
 		<label for="email">Email:</label>
 		<input type="email" id="email" name="email" required><br><br>
 		
@@ -25,6 +45,9 @@
 		<input type="date" id="entry_date" name="entry_date" required><br><br>
 		
 		<input type="submit" value="Submit">
+	
 	</form>
+	</div>
+
 </body>
 </html>
