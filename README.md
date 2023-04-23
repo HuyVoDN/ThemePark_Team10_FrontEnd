@@ -13,10 +13,7 @@ weekly and monthly basis, etc.
 <br>
  
  You guys can use the following for testing access rn <br><br>
- **Admin Access** <br>
- username: admin<br>
- password: 123 <br><br>
 **Manager Access**<br>
- username: JoeBiden69<br>
+ username: 79<br>
  password: 456
 
