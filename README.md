@@ -15,6 +15,6 @@ weekly and monthly basis, etc.
  You guys can use the following for testing access rn <br><br>
 **Manager Access**<br>
  Username: 79<br>
- Password: 456
+ Password: 456 <br>
 **Worker Access**<br>
 You can test it out by going to the manager dashboard, create a new worker and use it from there.
