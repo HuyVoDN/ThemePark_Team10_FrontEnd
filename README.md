@@ -16,4 +16,5 @@ weekly and monthly basis, etc.
 **Manager Access**<br>
  Username: 79<br>
  Password: 456
-
+**Worker Access**<br>
+You can test it out by going to the manager dashboard, create a new worker and use it from there.
