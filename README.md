@@ -19,4 +19,4 @@ weekly and monthly basis, etc.
 **Employee Worker Access**<br>
  Username: 891<br>
  Password: 1234 <br>
-You can test it out by going to the manager dashboard, create a new worker and use it from there.
+With the manager login, you are able to create a new employee account and log in with those user details.
